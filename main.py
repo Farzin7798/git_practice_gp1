@@ -31,12 +31,10 @@ def sub_of_two_numbers(num1 : int|float , num2 : int|float ) -> int|float :
         sub = num1 - num2
         return round(sub, 5)
         # return sub
-    raise ValueError("Please enter bigger number first🙏🏻")
+    raise ValueError("Please enter bigger number first.")
 
-#Example1
+#Example
 print(sub_of_two_numbers(12,7))
-#Example2
-print(sub_of_two_numbers(7,12))
 
 
 # Farzin
