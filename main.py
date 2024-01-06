@@ -38,11 +38,14 @@ print(sub_of_two_numbers(12,7))
 
 
 # Farzin
-
-
-# def div_of_two_numbers():
-#     pass
-
+def div_of_two_numbers(num1:int|float,num2:int|float)->float:
+    if num2 == 0:
+        return "Number 2 should not be 0"
+    else:
+        a = num1 / num2
+        return a
+#Example
+print(div_of_two_numbers(12,6))
 
 # Parsa
 
